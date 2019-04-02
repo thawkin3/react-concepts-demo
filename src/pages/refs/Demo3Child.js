@@ -9,7 +9,7 @@ class Demo3Child extends Component {
 
   render() {
     return (
-      <div className="demo-section refs-demo-1">
+      <div>
         <h4>Child Component with a Text Input</h4>
           <label htmlFor="lastName">Last Name</label>
           <input

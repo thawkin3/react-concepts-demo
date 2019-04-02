@@ -2,6 +2,7 @@ import React from 'react';
 import Demo1 from './Demo1';
 import Demo2 from './Demo2';
 import Demo3 from './Demo3';
+import './Refs.css';
 
 const RefsPage = () => (
   <main className="page refs-page">
