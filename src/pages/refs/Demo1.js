@@ -34,6 +34,7 @@ class Demo1 extends Component {
     return (
       <div className="demo-section refs-demo-1">
         <h3>Demo 1 - Adding a Ref to a DOM Element (Then Focusing an Input Element)</h3>
+        <p>Here the ref is created and used inside the same component.</p>
         {this.state.showInput && (
           <Fragment>
             <label htmlFor="username">Username</label>
