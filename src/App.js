@@ -15,7 +15,7 @@ class App extends Component {
     return (
       <AppErrorBoundary>
         <div className="app">
-          <Router>
+          <Router basename="/react-concepts-demo/build">
               <Header />
               <Route exact path="/" component={HomePage} />
               <Route path="/error-boundaries" component={ErrorBoundariesPage} />
