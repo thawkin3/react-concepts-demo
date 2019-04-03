@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+import { HashRouter as Router, Route } from 'react-router-dom';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import AppErrorBoundary from './components/AppErrorBoundary';
@@ -15,7 +15,7 @@ class App extends Component {
     return (
       <AppErrorBoundary>
         <div className="app">
-          <Router basename="/react-concepts-demo/build">
+          <Router>
               <Header />
               <Route exact path="/" component={HomePage} />
               <Route path="/error-boundaries" component={ErrorBoundariesPage} />
