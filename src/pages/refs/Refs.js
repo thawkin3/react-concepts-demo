@@ -10,7 +10,9 @@ const RefsPage = () => (
     <p>Refs are used for accessing DOM nodes directly. They should be used sparingly, but they're good for things like programmatically shifting focus to an element.</p>
     <p>When trying to call methods on a ref, it's always a good idea to check that the ref is not null first to avoid errors.</p>
     <Demo1 />
+    <hr />
     <Demo2 />
+    <hr />
     <Demo3 />
   </main>
 );

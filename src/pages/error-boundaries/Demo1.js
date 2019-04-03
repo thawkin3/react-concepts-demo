@@ -41,7 +41,7 @@ class Demo1 extends Component {
         >
           Throw an error through the click handler (incorrect)
         </button>
-        <p>Instead, you still need to use try/catch blocks to handle errors in your methods.</p>
+        <p>Instead, you still need to use try/catch blocks to handle errors in your event handlers.</p>
         <button
           type="button"
           onClick={this.throwErrorViaClickHandlerCorrectly}

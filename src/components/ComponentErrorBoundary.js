@@ -1,23 +1,32 @@
 import React, { Component } from 'react';
+import './ComponentErrorBoundary.css';
 
 class ComponentErrorBoundary extends Component {
   constructor(props) {
     super(props);
-    this.state = { hasError: false };
+    this.state = {
+      error: null,
+      errorInfo: null,
+    };
   }
 
-  static getDerivedStateFromError(error) {
-    return { hasError: true };
+  componentDidCatch(error, errorInfo) {
+    console.log('component error boundary did catch')
+    this.setState({
+      error,
+      errorInfo,
+    });
   }
 
   render() {
-    if (this.state.hasError) {
+    if (this.state.error) {
       return (
-        <div className="full-page">
+        <div className="component-error-boundary">
           <h1>Something went wrong.</h1>
-          <p>This is an error boundary that a component is wrapped in!</p>
-          <p>When an error is caught, this fallback UI is shown.</p>
-          <p>You can put error boundaries anywhere in your app, as many as you'd like, as small or as large as you'd like!</p>
+          <p>This is an error boundary that our component is wrapped in!</p>
+          <p>When an error is caught, this fallback UI is shown. But, importantly, the rest of the app did not crash.</p>
+          <p>{this.state.error.toString()}</p>
+          <p className="pre-format">Stack Trace: {this.state.errorInfo.componentStack}</p>
         </div>
       );
     }

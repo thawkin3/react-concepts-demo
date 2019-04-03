@@ -1,0 +1,7 @@
+.component-error-boundary {
+  color: #f00;
+}
+
+.component-error-boundary .pre-format {
+  white-space: pre-wrap;
+}
