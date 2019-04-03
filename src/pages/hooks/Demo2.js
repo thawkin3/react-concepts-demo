@@ -21,7 +21,7 @@ const Demo2 = () => {
       <p>If your effect function returns a function, that function gets called when the component unmounts. This is where you do any needed cleanup.</p>
       <p>Click the button below, and then check the page's title shown in the browser tab to see it get updated.</p>
       <p>You clicked {count} times</p>
-      <button onClick={() => setCount(count + 1)}>
+      <button onClick={() => setCount(prevCount => prevCount + 1)}>
         Click to increment counter
       </button>
     </div>

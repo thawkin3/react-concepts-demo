@@ -9,9 +9,15 @@ const Demo1 = () => {
     <div className="demo-section hooks-demo-1">
       <h3>Demo 1 - The State Hook</h3>
       <p>The state hook is used by importing <code>useState</code> from React. The <code>useState</code> method returns an array of two elements: the first is the state variable, and the second is the function that updates it.</p>
-      <p>You clicked {count} times</p>
-      <button type="button" onClick={() => setCount(count + 1)}>
-        Click to increment counter
+      <p>Counter value: {count}</p>
+      <button type="button" onClick={() => setCount(prevCount => prevCount + 1)}>
+        Increment counter
+      </button>
+      <button type="button" onClick={() => setCount(prevCount => prevCount - 1)}>
+        Decrement counter
+      </button>
+      <button type="button" onClick={() => setCount(0)}>
+        Reset counter
       </button>
       <p>Your name is: {name}</p>
       <input type="text" onChange={e => setName(e.target.value)}/>

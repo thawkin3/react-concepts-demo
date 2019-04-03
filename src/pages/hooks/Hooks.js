@@ -1,6 +1,9 @@
 import React from 'react';
 import Demo1 from './Demo1';
 import Demo2 from './Demo2';
+import Demo3 from './Demo3';
+import Demo4 from './Demo4';
+import './Hooks.css';
 
 const HooksPage = () => (
   <main className="page hooks-page">
@@ -9,6 +12,10 @@ const HooksPage = () => (
     <Demo1 />
     <hr />
     <Demo2 />
+    <hr />
+    <Demo3 />
+    <hr />
+    <Demo4 />
   </main>
 );
 
