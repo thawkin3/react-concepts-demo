@@ -14,7 +14,16 @@ const HomePage = () => (
           <Link to="/error-boundaries">Error Boundaries</Link>
         </li>
         <li>
+          <Link to="/higher-order-components">Higher Order Components (HOCs)</Link>
+        </li>
+        <li>
           <Link to="/hooks">Hooks</Link>
+        </li>
+        <li>
+          <Link to="/lifecycle-methods">Lifecycle Methods</Link>
+        </li>
+        <li>
+          <Link to="/portals">Portals</Link>
         </li>
         <li>
           <Link to="/refs">Refs</Link>
