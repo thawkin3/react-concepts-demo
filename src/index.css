@@ -10,10 +10,22 @@ html, body {
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+  color: #ff1493;
 }
 
 * {
   box-sizing: border-box;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+  color: #00a7e1;
+}
+
+a:hover,
+a:focus,
+a:active {
+  text-decoration: underline;
 }

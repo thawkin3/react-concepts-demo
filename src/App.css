@@ -9,6 +9,10 @@
   margin-bottom: 2rem;
 }
 
+h3 {
+  color: #ff1493;
+}
+
 label {
   display: block;
   margin-bottom: 0.5rem;

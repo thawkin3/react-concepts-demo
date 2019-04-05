@@ -1,0 +1,13 @@
+.lifecycle-methods-demo-1 button,
+.lifecycle-methods-demo-2 button {
+  margin-bottom: 0.5rem;
+}
+
+.lifecycle-methods-demo-1 .demo1-parent,
+.lifecycle-methods-demo-1 .demo1-child,
+.lifecycle-methods-demo-2 .bigger-container,
+.lifecycle-methods-demo-2 .smaller-container {
+  border: 1px solid #000;
+  border-radius: 0.25rem;
+  padding: 0.5rem;
+}
