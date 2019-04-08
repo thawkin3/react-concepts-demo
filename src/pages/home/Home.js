@@ -11,6 +11,9 @@ const HomePage = () => (
       <h3>Table of Contents</h3>
       <ul>
         <li>
+          <Link to="/code-splitting">Code-Splitting</Link>
+        </li>
+        <li>
           <Link to="/error-boundaries">Error Boundaries</Link>
         </li>
         <li>
@@ -27,9 +30,6 @@ const HomePage = () => (
         </li>
         <li>
           <Link to="/refs">Refs</Link>
-        </li>
-        <li>
-          <Link to="/suspense">Suspense</Link>
         </li>
       </ul>
     </nav>

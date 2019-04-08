@@ -1,0 +1,9 @@
+.loading {
+  color: #ff1493;
+  font-weight: bold;
+}
+
+.code-splitting-demo-2 button {
+  margin-right: 0.5rem;
+  margin-bottom: 0.5rem;
+}

@@ -10,7 +10,7 @@ import HooksPage from './pages/hooks/Hooks';
 import LifecycleMethodsPage from './pages/lifecycle-methods/LifecycleMethods';
 import PortalsPage from './pages/portals/Portals';
 import RefsPage from './pages/refs/Refs';
-import SuspensePage from './pages/suspense/Suspense';
+import CodeSplittingPage from './pages/code-splitting/CodeSplitting';
 import './App.css';
 
 class App extends Component {
@@ -27,7 +27,7 @@ class App extends Component {
             <Route path="/lifecycle-methods" component={LifecycleMethodsPage} />
             <Route path="/portals" component={PortalsPage} />
             <Route path="/refs" component={RefsPage} />
-            <Route path="/suspense" component={SuspensePage} />
+            <Route path="/code-splitting" component={CodeSplittingPage} />
             <Footer />
           </Router>
         </div>
