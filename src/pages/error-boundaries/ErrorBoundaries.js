@@ -1,6 +1,9 @@
 import React from 'react';
 import Demo1 from './Demo1';
 import Demo2 from './Demo2';
+import Demo3 from './Demo3';
+import Demo4 from './Demo4';
+import Demo5 from './Demo5';
 
 const ErrorBoundariesPage = () => (
   <main className="page error-boundaries-page">
@@ -9,6 +12,12 @@ const ErrorBoundariesPage = () => (
     <Demo1 />
     <hr />
     <Demo2 />
+    <hr />
+    <Demo3 />
+    <hr />
+    <Demo4 />
+    <hr />
+    <Demo5 />
   </main>
 );
 
