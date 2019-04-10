@@ -14,10 +14,16 @@ const HomePage = () => (
           <Link to="/code-splitting">Code-Splitting</Link>
         </li>
         <li>
+          <Link to="/context">Context</Link>
+        </li>
+        <li>
           <Link to="/error-boundaries">Error Boundaries</Link>
         </li>
         <li>
-          <Link to="/higher-order-components">Higher Order Components (HOCs)</Link>
+          <Link to="/function-as-child-components">Function as Child Components</Link>
+        </li>
+        <li>
+          <Link to="/higher-order-components">Higher-Order Components (HOCs)</Link>
         </li>
         <li>
           <Link to="/hooks">Hooks</Link>
