@@ -1,6 +1,7 @@
 import React from 'react';
 import Demo1 from './Demo1';
 import Demo2 from './Demo2';
+import Demo3 from './Demo3';
 import './HigherOrderComponents.css';
 
 const HigherOrderComponentsPage = () => (
@@ -18,6 +19,8 @@ const HigherOrderComponentsPage = () => (
     <Demo1 />
     <hr />
     <Demo2 />
+    <hr />
+    <Demo3 />
   </main>
 );
 
