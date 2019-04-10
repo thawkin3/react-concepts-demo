@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Introduction = () => (
-  <div className="demo-section lifecycle-methods-demo-section-0">
+  <div className="introduction">
     <h3>Mounting</h3>
     <p>When a component is being created and inserted into the DOM, the following lifecycle methods are called in this order:</p>
     <ol>
