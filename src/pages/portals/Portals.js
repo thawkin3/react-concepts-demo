@@ -1,5 +1,6 @@
 import React from 'react';
 import Demo1 from './Demo1';
+import Demo2 from './Demo2';
 import './Portals.css';
 
 const PortalsPage = () => (
@@ -10,6 +11,8 @@ const PortalsPage = () => (
     </div>
     <hr />
     <Demo1 />
+    <hr />
+    <Demo2 />
   </main>
 );
 

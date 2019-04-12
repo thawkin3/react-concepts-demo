@@ -27,7 +27,7 @@ class Modal extends Component {
     return (
       isOpen ? (
         createPortal(
-          <FocusTrap >
+          <FocusTrap>
             <div
               className="modal-overlay"
               role={role}

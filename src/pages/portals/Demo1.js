@@ -7,8 +7,7 @@ class Demo1 extends Component {
   openButtonRef = createRef();
   closeButtonRef = createRef();
 
-  openModal = (e) => {
-    e.stopPropagation();
+  openModal = () => {
     this.setState({ showModal: true }, () => {
       this.closeButtonRef && this.closeButtonRef.current && this.closeButtonRef.current.focus();
     });
