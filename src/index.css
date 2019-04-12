@@ -29,3 +29,7 @@ a:focus,
 a:active {
   text-decoration: underline;
 }
+
+.lock-scroll {
+  overflow: hidden !important;
+}
