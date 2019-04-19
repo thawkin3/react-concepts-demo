@@ -28,9 +28,9 @@ class Demo2 extends Component {
         <h3>Demo 2 - Passing a Value and a Method to Update That Value</h3>
         <p>When using Context, your consumer components may need a way to update or change the value(s) that they receive from the provider. In this example, we have a theme context. The provider gives the consumers a value for the current theme as well as a method for toggling the theme.</p>
         <ThemeContext.Provider value={this.state}>
-          <ThemedSection />
+          <ThemedSection withButton />
           <UnstyledThemedSection />
-          <ThemedSection />
+          <ThemedSection withButton={false} />
         </ThemeContext.Provider>
       </div>
     );
