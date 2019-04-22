@@ -17,7 +17,9 @@ class Demo3 extends Component {
     return (
       <div className="demo-section error-boundaries-demo-3">
         <h3>Demo 3 - Error Thrown in a Lifecycle Method</h3>
-        <p>In this demo we have a button to increment a counter. We have a <code>componentDidUpdate</code> lifecycle method defined that will throw an error when the counter's value is 3. The error boundary will then catch that error since it occurred in a lifecycle method.</p>
+        <p>In this demo we have a button to increment a counter. We have a <code>componentDidUpdate</code> lifecycle
+          method defined that will throw an error when the counter's value is 3. The error boundary
+          will then catch that error since it occurred in a lifecycle method.</p>
         <button
           type="button"
           onClick={this.incrementCounter}

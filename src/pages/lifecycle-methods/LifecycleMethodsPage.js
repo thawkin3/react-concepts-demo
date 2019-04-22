@@ -7,7 +7,9 @@ import './LifecycleMethods.css';
 const LifecycleMethodsPage = () => (
   <main className="page lifecycle-methods-page">
     <h2>Lifecycle Methods</h2>
-    <p>Lifecycle methods are methods that you can tie into to run code at certain points while your component is mounting, updating, or unmounting. Understanding when each method runs and what it's best used for is crucial to writing clean components.</p>
+    <p>Lifecycle methods are methods that you can tie into to run code at certain points while your component
+        is mounting, updating, or unmounting. Understanding when each method runs and what it's best used for
+        is crucial to writing clean components.</p>
     <Introduction />
     <hr />
     <Demo1 />

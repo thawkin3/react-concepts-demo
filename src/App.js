@@ -3,17 +3,17 @@ import { HashRouter as Router, Route, Switch, Redirect } from 'react-router-dom'
 import Header from './components/Header';
 import Footer from './components/Footer';
 import AppErrorBoundary from './components/AppErrorBoundary';
-import HomePage from './pages/home/Home';
-import CodeSplittingPage from './pages/code-splitting/CodeSplitting';
-import ContextPage from './pages/context/Context';
-import ErrorBoundariesPage from './pages/error-boundaries/ErrorBoundaries';
-import FunctionAsChildComponentsPage from './pages/function-as-child-components/FunctionAsChildComponents';
-import HigherOrderComponentsPage from './pages/higher-order-components/HigherOrderComponents';
-import HooksPage from './pages/hooks/Hooks';
-import LifecycleMethodsPage from './pages/lifecycle-methods/LifecycleMethods';
-import PortalsPage from './pages/portals/Portals';
-import RefsPage from './pages/refs/Refs';
-import RenderPropsPage from './pages/render-props/RenderProps';
+import HomePage from './pages/home/HomePage';
+import CodeSplittingPage from './pages/code-splitting/CodeSplittingPage';
+import ContextPage from './pages/context/ContextPage';
+import ErrorBoundariesPage from './pages/error-boundaries/ErrorBoundariesPage';
+import FunctionAsChildComponentsPage from './pages/function-as-child-components/FunctionAsChildComponentsPage';
+import HigherOrderComponentsPage from './pages/higher-order-components/HigherOrderComponentsPage';
+import HooksPage from './pages/hooks/HooksPage';
+import LifecycleMethodsPage from './pages/lifecycle-methods/LifecycleMethodsPage';
+import PortalsPage from './pages/portals/PortalsPage';
+import RefsPage from './pages/refs/RefsPage';
+import RenderPropsPage from './pages/render-props/RenderPropsPage';
 import './App.css';
 
 class App extends Component {

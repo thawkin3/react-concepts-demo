@@ -4,8 +4,13 @@ import Progress from './Progress';
 const Demo2 = () => (
   <div className="demo-section function-as-child-components-demo-2">
     <h3>Demo 2 - Progress FACC</h3>
-    <p>We've defined a FACC called <code>Progress</code> that calls its <code>children</code> function with arguments for the progress value as well as callback methods to increment, decrement, reset, and set the progress value.</p>
-    <p>We then have two components that use the <code>Progress</code> component. The first simply displays the progress value on the page and has buttons to increment, decrement, and reset the progress value. The second displays a slider input that controls the progress value. There is also a number input you can use to change the progress value.</p>
+    <p>We've defined a FACC called <code>Progress</code> that calls its <code>children</code> function with
+      arguments for the progress value as well as callback methods to increment, decrement, reset, and set
+      the progress value.</p>
+    <p>We then have two components that use the <code>Progress</code> component. The first simply displays
+      the progress value on the page and has buttons to increment, decrement, and reset the progress value.
+      The second displays a slider input that controls the progress value. There is also a number input you
+      can use to change the progress value.</p>
     <Progress>
       {props => (
         <div className="add-border example-section">

@@ -10,7 +10,9 @@ const ErrorBoundariesPage = () => (
   <main className="page error-boundaries-page">
     <h2>Error Boundaries</h2>
     <div className="introduction">
-      <p>Error boundaries are a useful tool for ensuring that your entire app doesn't break if a component runs into an error. Error boundaries catch errors during rendering, in lifecycle methods, and in constructors of the whole tree below them. If any errors are caught, you can then show a fallback UI.</p>
+      <p>Error boundaries are a useful tool for ensuring that your entire app doesn't break if a component
+        runs into an error. Error boundaries catch errors during rendering, in lifecycle methods, and in
+        constructors of the whole tree below them. If any errors are caught, you can then show a fallback UI.</p>
     </div>
     <hr />
     <Demo1 />

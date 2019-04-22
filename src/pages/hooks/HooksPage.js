@@ -9,7 +9,8 @@ const HooksPage = () => (
   <main className="page hooks-page">
     <h2>Hooks</h2>
     <div className="introduction">
-      <p>Hooks are pretty cool! They let you use state and other React features in functional components, so you no longer need to define a class component if you don't want to.</p>
+      <p>Hooks are pretty cool! They let you use state and other React features in functional components, so you
+          no longer need to define a class component if you don't want to.</p>
     </div>
     <hr/>
     <Demo1/>

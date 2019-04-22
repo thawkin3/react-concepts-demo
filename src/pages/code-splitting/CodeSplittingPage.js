@@ -7,7 +7,9 @@ const CodeSplittingPage = () => (
   <main className="page code-splitting-page">
     <h2>Code-Splitting</h2>
     <div className="introduction">
-      <p>Lazy loading allows you to do code-splitting in your app. In other words, rather than loading everything up front, you only load portions of your code when you need it. This helps you reduce bundle sizes and cut down on initial page load time.</p>
+      <p>Lazy loading allows you to do code-splitting in your app. In other words, rather than loading everything
+        up front, you only load portions of your code when you need it. This helps you reduce bundle sizes and
+        cut down on initial page load time.</p>
     </div>
     <hr />
     <Demo1 />

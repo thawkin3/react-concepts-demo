@@ -25,7 +25,9 @@ const Demo4 = () => {
   return (
     <div className="demo-section hooks-demo-4">
       <h3>Demo 4 - The Reducer Hook</h3>
-      <p>The reducer hook is used by importing <code>useReducer</code> from React. The <code>useReducer</code> method takes a reducer and the intial state as arguments and then returns an array of two elements: the first is the state variable, and the second is the dispatch function.</p>
+      <p>The reducer hook is used by importing <code>useReducer</code> from React. The <code>useReducer</code> method
+        takes a reducer and the intial state as arguments and then returns an array of two elements: the first is
+        the state variable, and the second is the dispatch function.</p>
       <p>The reducer hook lets you write code that is very similar to how things work in Redux.</p>
       <div className="state-data">
         <h4>State Data:</h4>

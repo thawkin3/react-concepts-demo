@@ -42,7 +42,9 @@ class Demo2 extends Component {
     return (
       <div className="demo-section lifecycle-methods-demo-2">
         <h3>Demo 2 - getSnapshotBeforeUpdate</h3>
-        <p>This lifecycle method is great for capturing DOM information right before the component renders, so you can compare before and after values. In this example, we'll see the captured value of the container's height before and after the component updates.</p>
+        <p>This lifecycle method is great for capturing DOM information right before the component renders,
+          so you can compare before and after values. In this example, we'll see the captured value of the
+          container's height before and after the component updates.</p>
         <div className="bigger-container" ref={this.containerRef}>
           <p><b>Main Container Current Height:</b> {currentHeight ? `${currentHeight}px` : 'N/A'}</p>
           <p><b>Main Container Previous Height:</b> {previousHeight ? `${previousHeight}px` : 'N/A'}</p>

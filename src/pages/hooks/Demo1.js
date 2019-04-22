@@ -8,7 +8,9 @@ const Demo1 = () => {
   return (
     <div className="demo-section hooks-demo-1">
       <h3>Demo 1 - The State Hook</h3>
-      <p>The state hook is used by importing <code>useState</code> from React. The <code>useState</code> method returns an array of two elements: the first is the state variable, and the second is the function that updates it.</p>
+      <p>The state hook is used by importing <code>useState</code> from React. The <code>useState</code> method
+        returns an array of two elements: the first is the state variable, and the second is the function that
+        updates it.</p>
       <p>Counter value: {count}</p>
       <button type="button" onClick={() => setCount(prevCount => prevCount + 1)}>
         Increment counter

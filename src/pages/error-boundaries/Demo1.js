@@ -26,15 +26,18 @@ class Demo1 extends Component {
     return (
       <div className="demo-section error-boundaries-demo-1">
         <h3>Demo 1 - Error Boundary Surrounding the Entire App</h3>
-        <p>Here we will intentionally throw an error. Our entire app is wrapped in an error boundary, and we'll show an error message.</p>
-        <p>This button will cause an error in the component's render method, which will then be caught by the error boundary.</p>
+        <p>Here we will intentionally throw an error. Our entire app is wrapped in an error boundary, and we'll
+          show an error message.</p>
+        <p>This button will cause an error in the component's render method, which will then be caught by the
+          error boundary.</p>
         <button
           type="button"
           onClick={this.throwErrorViaRender}
         >
           Throw an error through the render method
         </button>
-        <p>This button will throw an error inside the click handler, but this will NOT be caught by the error boundary. Don't do this!</p>
+        <p>This button will throw an error inside the click handler, but this will NOT be caught by the
+          error boundary. Don't do this!</p>
         <button
           type="button"
           onClick={this.throwErrorViaClickHandlerIncorrectly}

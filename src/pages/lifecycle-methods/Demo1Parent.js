@@ -64,7 +64,8 @@ class Demo1Parent extends Component {
     const { showChild, textColor } = this.state;
     return (
       <div className="demo1-parent" ref={this.parentContainerRef}>
-        <p>I'm the parent component. I have state for whether or not to show the child component and what color the child component's text should be.</p>
+        <p>I'm the parent component. I have state for whether or not to show the child component and what color
+          the child component's text should be.</p>
         <button
           type="button"
           onClick={this.toggleChildVisibility}

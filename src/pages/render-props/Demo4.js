@@ -17,8 +17,9 @@ const dataSet2 = [
 const Demo4 = () => (
   <div className="demo-section render-props-demo-4">
     <h3>Demo 4 - Render Prop Not Called "Render"</h3>
-    <p>The <code>render</code> prop doesn't have to be called <code>render</code>. Here we're using a similar setup compared
-      to the previous demo, only this time our <code>render</code> prop is actually called <code>formatListItem</code></p>
+    <p>The <code>render</code> prop doesn't have to be called <code>render</code>. Here we're using a similar
+      setup compared to the previous demo, only this time our <code>render</code> prop is actually
+      called <code>formatListItem</code></p>
     <div className="add-border example-section">
       <h4>Example A - Data is an array of strings</h4>
       <ListViewerWithDifferentRenderPropName
