@@ -1,5 +1,6 @@
 .lifecycle-methods-demo-1 button,
-.lifecycle-methods-demo-2 button {
+.lifecycle-methods-demo-2 button,
+.lifecycle-methods-demo-3 button {
   margin-bottom: 0.5rem;
 }
 
