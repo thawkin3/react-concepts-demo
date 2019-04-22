@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[0],{63:function(e,n,o){"use strict";o.r(n),o.d(n,"alertAboutDefaultExport",function(){return t}),o.d(n,"alertAboutNamedExport",function(){return a}),console.log("Dynamically loaded module has been loaded. Note that this only gets logged once.");var t=function(){window.alert("Dynamically loaded DEFAULT export function has been called!")},a=function(){window.alert("Dynamically loaded NAMED export function has been called!")};n.default=t}}]);
+//# sourceMappingURL=0.74bae7e1.chunk.js.map

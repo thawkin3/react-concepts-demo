@@ -13,6 +13,7 @@ import HooksPage from './pages/hooks/Hooks';
 import LifecycleMethodsPage from './pages/lifecycle-methods/LifecycleMethods';
 import PortalsPage from './pages/portals/Portals';
 import RefsPage from './pages/refs/Refs';
+import RenderPropsPage from './pages/render-props/RenderProps';
 import './App.css';
 
 class App extends Component {
@@ -33,6 +34,7 @@ class App extends Component {
               <Route path="/lifecycle-methods" component={LifecycleMethodsPage} />
               <Route path="/portals" component={PortalsPage} />
               <Route path="/refs" component={RefsPage} />
+              <Route path="/render-props" component={RenderPropsPage} />
               <Redirect to="/" />
             </Switch>
             <Footer />

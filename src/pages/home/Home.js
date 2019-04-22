@@ -37,6 +37,9 @@ const HomePage = () => (
         <li>
           <Link to="/refs">Refs</Link>
         </li>
+        <li>
+          <Link to="/render-props">Render Props</Link>
+        </li>
       </ul>
     </nav>
   </main>
