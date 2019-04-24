@@ -1,0 +1,13 @@
+.example-section {
+  margin: 1rem;
+}
+
+.children-container {
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+button {
+  margin-bottom: 0.5rem;
+}

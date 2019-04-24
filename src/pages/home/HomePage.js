@@ -37,6 +37,9 @@ const HomePage = () => (
           <Link to="/portals">Portals</Link>
         </li>
         <li>
+          <Link to="/pure-component">PureComponent</Link>
+        </li>
+        <li>
           <Link to="/refs">Refs</Link>
         </li>
         <li>

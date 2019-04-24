@@ -12,6 +12,7 @@ import HigherOrderComponentsPage from './pages/higher-order-components/HigherOrd
 import HooksPage from './pages/hooks/HooksPage';
 import LifecycleMethodsPage from './pages/lifecycle-methods/LifecycleMethodsPage';
 import PortalsPage from './pages/portals/PortalsPage';
+import PureComponentPage from './pages/pure-component/PureComponentPage';
 import RefsPage from './pages/refs/RefsPage';
 import RenderPropsPage from './pages/render-props/RenderPropsPage';
 import './App.css';
@@ -33,6 +34,7 @@ class App extends Component {
               <Route path="/hooks" component={HooksPage} />
               <Route path="/lifecycle-methods" component={LifecycleMethodsPage} />
               <Route path="/portals" component={PortalsPage} />
+              <Route path="/pure-component" component={PureComponentPage} />
               <Route path="/refs" component={RefsPage} />
               <Route path="/render-props" component={RenderPropsPage} />
               <Redirect to="/" />
