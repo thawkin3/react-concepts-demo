@@ -37,7 +37,7 @@ class PropDrillingExample extends Component {
   render() {
     return (
       <div className="add-border">
-        <p><b>Level 1:</b> I control the counter value and pass it down.</p>
+        <p><b>Level 1:</b> I control the counter value and pass it down. <b>Counter value is: {this.state.counterValue}.</b></p>
         <button
           type="button"
           onClick={this.incrementCounter}

@@ -2,7 +2,7 @@ import React, { Component, createContext } from 'react';
 
 const CounterContext = createContext(0);
 
-const Level5Component = () => (
+const Level5Component = (props) => (
   <CounterContext.Consumer>
     {counterValue => (
       <div className="add-border">
@@ -33,7 +33,7 @@ const Level2Component = () => (
   </div>
 );
 
-class ContextExample extends Component {
+class ComponentContextExample extends Component {
   state = { counterValue: 0 };
 
   incrementCounter = () => {
@@ -58,4 +58,4 @@ class ContextExample extends Component {
   }
 }
 
-export default ContextExample;
+export default ComponentContextExample;

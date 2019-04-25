@@ -5,6 +5,7 @@ import Demo3 from './Demo3';
 import Demo4 from './Demo4';
 import Demo5 from './Demo5';
 import Demo6 from './Demo6';
+import Demo7 from './Demo7';
 import './PureComponent.css';
 
 const PureComponentPage = () => (
@@ -37,6 +38,8 @@ const PureComponentPage = () => (
     <Demo5 />
     <hr />
     <Demo6 />
+    <hr />
+    <Demo7 />
   </main>
 );
 

@@ -67,6 +67,8 @@ class Demo3 extends Component {
           component, and a class component extending <code>React.PureComponent</code>. The parent component
           updates every time a new random number is generated, and that random number is passed down as a prop to
           each of the components. Because the prop changed, each child component also updates and re-renders.</p>
+        <p>Open up your browser's JavaScript console and then interact with the demo to see console logs when each
+          component re-renders.</p>
         <ParentComponent />
       </div>
     );

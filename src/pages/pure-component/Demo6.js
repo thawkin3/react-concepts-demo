@@ -67,11 +67,13 @@ class Demo6 extends Component {
       <div className="demo-section pure-component-demo-6">
         <h3>Demo 6 - Todo List Comparing React.Component and React.PureComponent</h3>
         <p>Here we have two <code>TodoList</code> components. One of the todo lists uses <code>React.Component</code> for
-        its child <code>TodoItem</code> components, and the other todo list uses <code>React.PureComponent</code> for
-        its child <code>TodoItem</code> components. Clicking the Refresh Todos button will update the state for the
-        parent <code>TodoList</code> component with the exact same list of todo items. Note how the todo items that
-        extend <code>React.PureComponent</code> don't re-render because their props did not change, while the todo items
-        that extend <code>React.Component</code> do re-render simply because their parent component re-rendered.</p>
+          its child <code>TodoItem</code> components, and the other todo list uses <code>React.PureComponent</code> for
+          its child <code>TodoItem</code> components. Clicking the Refresh Todos button will update the state for the
+          parent <code>TodoList</code> component with the exact same list of todo items. Note how the todo items that
+          extend <code>React.PureComponent</code> don't re-render because their props did not change, while the todo items
+          that extend <code>React.Component</code> do re-render simply because their parent component re-rendered.</p>
+        <p>Open up your browser's JavaScript console and then interact with the demo to see console logs when each
+          component re-renders.</p>
         <h4>Using a TodoItem with React.Component</h4>
         <TodoList usePureComponent={false} />
         <h4>Using a TodoItem with React.PureComponent</h4>

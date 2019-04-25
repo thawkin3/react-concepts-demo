@@ -68,6 +68,8 @@ class Demo1 extends Component {
           updates every time a new random number is generated. The component extending <code>React.Component</code> and
           the functional component re-render every time, but the component extending <code>React.PureComponent</code> does
           not re-render since its props (or lack thereof) don't change!</p>
+        <p>Open up your browser's JavaScript console and then interact with the demo to see console logs when each
+          component re-renders.</p>
         <ParentComponent />
       </div>
     );
